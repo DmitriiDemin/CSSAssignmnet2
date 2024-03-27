@@ -1,0 +1,14 @@
+h1 {
+    color: orange;
+    text-transform: uppercase;
+}
+
+h1::before,
+h1::after {
+    content: '|';
+}
+.image {
+    background-image: url('/img/hunter.jpg');
+    height: 100px; /* Adjust height as needed */
+    width: 100px; /* Adjust width as needed */
+}
